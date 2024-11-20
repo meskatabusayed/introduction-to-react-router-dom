@@ -8,7 +8,8 @@ const User = ({user}) => {
         padding : "20px",
         
         borderRadius : "20px"
-    }
+    };
+    
     return (
         <div style={userStyle}>
             <p>Name : {name}</p>
