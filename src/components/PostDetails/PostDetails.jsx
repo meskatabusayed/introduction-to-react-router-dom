@@ -8,7 +8,7 @@ const PostDetails = () => {
     const {postId} = useParams();
     console.log(postId);
     const handleGoBack = () => {
-     navigate(-2);
+     navigate(-1);
     }
 
     return (
